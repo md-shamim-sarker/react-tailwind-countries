@@ -8,7 +8,7 @@ import img_oceania from '../../image/oceania.jpg';
 
 const Home = () => {
     return (
-        <div className='sm:w-full lg:w-4/5 m-auto sm:grid grid-cols-1 lg:grid-cols-3 gap-5'>
+        <div className='sm:w-full lg:w-4/5 m-auto grid grid-cols-1 lg:grid-cols-3 gap-10 my-5'>
             <Region img_region={img_asia} name_region={"Asia"}></Region>
             <Region img_region={img_europe} name_region={"Europe"}></Region>
             <Region img_region={img_america} name_region={"America"}></Region>
